@@ -5,5 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "azure-ai-documentintelligence>=1.0.2",
+    "dotenv>=0.9.9",
+    "pydantic>=2.11.3",
     "streamlit>=1.44.1",
+    "streamlit-back-camera-input>=0.1.1",
 ]

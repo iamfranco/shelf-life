@@ -5,13 +5,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Streamlit Debugger: Current File",
+      "name": "Streamlit Debugger: app.py",
       "type": "debugpy",
       "request": "launch",
       "module": "streamlit",
       "args": [
         "run",
-        "${file}",
+        "app.py",
         "--server.port=8502",
       ]
     },
